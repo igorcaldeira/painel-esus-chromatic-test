@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4407],{613:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/painel-esus-chromatic-test/blog/tags/facebook","allTagsPath":"/painel-esus-chromatic-test/blog/tags","count":1,"unlisted":false}')}}]);
