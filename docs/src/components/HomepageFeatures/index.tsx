@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'O Painel e-SUS APS',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        É um software gratuito e integrado à base de dados local do sistema e-SUS APS. Destinado aos profissionais da assistência e gestão em saúde e focado na implementação de boas práticas.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Relatórios Temáticos',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+       Reúne dados populacionais e de saúde, permitindo uma compreensão atualizada das condições do território, além de um acompanhamento longitudinal e integrado dos cidadãos cadastrados.
+       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Lista Nominal',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       As lista nominais são recursos fundamentais para apoio da busca ativa e identificação da população acompanhada. Os alertas sobre a situação das boas práticas a serem monitoradas pela a equipe de saúde.
       </>
     ),
   },

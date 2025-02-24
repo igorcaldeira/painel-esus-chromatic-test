@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Painel Saúde",
-  tagline: "Conheça o Painel Saúde",
+  title: "Painel e-SUS APS",
+  tagline: "O Painel e-SUS APS oferece uma visão abrangente dos dados populacionais e de saúde, permitindo às equipes de saúde e gestores uma compreensão clara e atualizada da situação de saúde do território. Além disso, possibilita o acompanhamento longitudinal e integrado dos cidadãos adscritos, facilitando uma atenção mais coordenada e centrada no usuário.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -59,9 +59,9 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Painel Saúde",
+      title: "Painel e-SUS APS",
       logo: {
-        alt: "Painel Saúde",
+        alt: "Painel e-SUS APS",
         src: "img/logo.svg",
       },
       items: [
@@ -83,46 +83,34 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Documentação",
           items: [
             {
-              label: "Tutorial",
+              label: "Relatórios Temáticos",
               to: "/docs/intro",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Relatórios Temáticos",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Painel e-SUS APS",
+              href: "https://github.com/CampusVirtualFiocruz/painel-esus",
             },
           ],
         },
         {
-          title: "More",
+          title: "Site Oficial",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Painel e-SUS APS",
+              href: "https://sisaps.saude.gov.br/esus/#painelesusaps",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `2025 - Fiocruz`,
     },
     prism: {
       theme: prismThemes.github,
