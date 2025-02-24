@@ -47,7 +47,7 @@ type Value = {
     description: string;
     info?: string;
     percent?: boolean;
-    icon?: React.ReactElement;
+    icon?: String;
   } & generalConfigs;
 };
 

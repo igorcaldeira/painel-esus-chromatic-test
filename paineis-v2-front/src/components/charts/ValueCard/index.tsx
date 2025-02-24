@@ -1,5 +1,5 @@
 import { ValueChart } from "../charts.types";
-import Card from "../../ui/Card";
+import Card from "../../ui/Card/Card";
 import RenderSingleValue from "../../ui/RenderSingleValue";
 import "./style.scss";
 
