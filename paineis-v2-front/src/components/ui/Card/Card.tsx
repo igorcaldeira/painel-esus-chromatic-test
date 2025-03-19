@@ -11,7 +11,7 @@ const Card = ({
         borderRadius: "4px",
         border: "1px solid rgb(211, 212, 221)",
         padding: "1.2rem",
-        width: "100%",
+        width: "100%",color: "#24252E",
         ...props?.style,
       }}
     >

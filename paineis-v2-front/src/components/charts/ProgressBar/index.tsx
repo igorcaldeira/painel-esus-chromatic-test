@@ -27,7 +27,8 @@ const defaultColors = [
 
 export function ProgressBar(props: DonutChart) {
   return (
-    <div style={{ marginTop: "60px" }}>
+    <div style={{ marginTop: "60px",
+      color: "#24252E", }}>
       {(props.data || []).map((i, index) => (
         <div key={i.tag} className="d-flex align-items-center mt-2">
           <div className="desfecho d-flex" style={{ borderColor: "#bbbbbb" }}>

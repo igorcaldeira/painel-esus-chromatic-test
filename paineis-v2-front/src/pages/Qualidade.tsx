@@ -1,7 +1,7 @@
 import { useParams, useSearchParams } from "react-router-dom";
 import { MdInfoOutline } from "react-icons/md";
 import { content } from "../assets/content/content";
-import { Bar, Donut, ShallowTreemap, ValueCard } from "../components/charts";
+import { Donut, ValueCard } from "../components/charts";
 import { ReportFooter } from "../components/ui/ReportFooter";
 import ReportWrapper from "../components/ui/ReportWrapper";
 import useReportDataQualidade from "../hooks/sections/qualidade/useReportDataQualidade";
